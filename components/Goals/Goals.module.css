@@ -1,0 +1,130 @@
+.goalsRow {
+  display: flex;
+  justify-content: center;
+}
+
+.goalsCol {
+  /* width: 100%; */
+  text-align: center;
+  color: #314584;
+}
+
+.button {
+  outline: none;
+  border: none;
+  color: #314584;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgb(253, 69, 100);
+  padding: 10px 30px;
+  border-radius: 20px;
+  transition: all 1s ease-in;
+  margin-bottom: 1rem;
+}
+.button:hover {
+  background-color: transparent;
+  border: 1px solid #314584;
+  color: rgb(253, 69, 100);
+}
+.button:active {
+  background-color: bisque;
+}
+
+.goalsCol1 {
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20rem;
+  margin: 1rem 0;
+  padding: 2rem;
+  border: 1px solid rgb(206, 199, 199);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.CardIcon {
+  margin: 1rem;
+  font-size: 3rem;
+  /* color: #334752; */
+  color: #314584;
+}
+
+.card h3 {
+  padding: 0 1rem;
+  line-height: 2.2rem;
+  font-size: 2rem;
+  color: #314584;
+}
+
+.card p {
+  padding: 0 1rem;
+  color: #334752;
+}
+
+@media (min-width: 992px) {
+  .goalsCol {
+    padding: 5px;
+    color: #314584;
+    text-align: left;
+  }
+  .goalsCol h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 992px) {
+  .goalsCol {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .card {
+    width: 18rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .card {
+    width: 17rem;
+  }
+}
+
+@media (max-width: 1040px) {
+  .goalsCol {
+    text-align: center;
+  }
+  .card {
+    width: 16rem;
+  }
+}
+@media (max-width: 1022px) {
+  .goalsCol {
+    text-align: center;
+  }
+  .card {
+    width: 17rem;
+  }
+}
+@media (max-width: 1022px) {
+  .card {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .card {
+    width: 18rem;
+  }
+}
+@media (max-width: 795px) {
+  .goalsCol1 {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 20rem;
+  }
+}

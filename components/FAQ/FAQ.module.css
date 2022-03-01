@@ -1,0 +1,30 @@
+.faq {
+  background-color: #f6f6fd;
+  text-align: center;
+}
+
+.faqHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq h1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 2rem;
+  color: #334752;
+  font-weight: 700;
+}
+.faqp {
+  text-align: center;
+  width: 50%;
+  color: rgba(49, 47, 47, 0.719);
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 700px) {
+  .faqp {
+    width: 85%;
+  }
+}
