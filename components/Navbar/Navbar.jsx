@@ -1,18 +1,32 @@
-import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Navbar = () => {
+  const [navcheck, setNavbar] = useState(false);
   useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
     Aos.init({
       duration: 1000,
     });
   });
+
+  const changeBackground = () => {
+    if (window.scrollY >= 100) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-light px-3 mt-2"
+        className={
+          navcheck
+            ? "navbar navbar-expand-lg navbar-dark fixed-top px-3 bg-dark"
+            : "navbar navbar-expand-lg navbar-light fixed-top px-3 mt-2"
+        }
         data-aos="fade-in"
         data-aos-anchor-placement="top-center"
       >

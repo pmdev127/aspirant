@@ -17,14 +17,14 @@ const Footer = () => {
           <em>Aspirant Nepal</em>
         </p>
         <h2 data-aos="zoom-out">Making Competitive Candidate</h2>
-        <ul className={styles.footerNav} data-aos="fade-up">
+        <ul className={styles.footerNav}>
           <li>Home</li>
           <li>About Us</li>
           <li>Contact Us</li>
           <li>Blogs</li>
           <li>Login/Register</li>
         </ul>
-        <p className={styles.copyright} data-aos="zoom-in">
+        <p className={styles.copyright}>
           &copy;2022 Aspirant Nepal, All Right Reserved
         </p>
         <ul className={styles.footersocial}>

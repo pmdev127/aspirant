@@ -18,7 +18,7 @@ const Home = () => {
     });
   });
   return (
-    <>
+    <div className={styles.homepage}>
       <Head>
         <meta
           name="viewport"
@@ -28,9 +28,7 @@ const Home = () => {
         <meta name="description" content="Aspirant Nepal" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar />
-
       <header className={styles.headerContainer} data-aos="fade-in">
         <div className={styles.homepageHero + " row gx-0 "}>
           <div className={styles.heroleft + " col-xl-8 col-md-8  p-0 m-0"}>
@@ -61,7 +59,7 @@ const Home = () => {
         <FAQ />
         <Footer />
       </main>
-    </>
+    </div>
   );
 };
 
