@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../Navbar/Navbar";
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
+import styles from "./Home.module.css";
 import Hero from "../Hero/Hero";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -43,7 +43,7 @@ const Home = () => {
                 Consequuntur excepturi adipisci quasi numquam, nobis ipsam illo
                 ratione molestiae quisquam sint?
               </p>
-              <button className={styles.herobtn} data-aos="zoom-out-up">
+              <button className={styles.herobtn} data-aos="zoom-in">
                 Test Your Skills Now
               </button>
             </div>

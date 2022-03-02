@@ -12,18 +12,18 @@ const Navbar = () => {
   return (
     <>
       <nav
-        class="navbar navbar-expand-lg navbar-light px-3 mt-2"
+        className="navbar navbar-expand-lg navbar-light px-3 mt-2"
         data-aos="fade-in"
         data-aos-anchor-placement="top-center"
       >
-        <div class="container">
-          <a class="navbar-brand" href="#">
+        <div className="container">
+          <a className="navbar-brand" href="#">
             {/* <Image src={logo} /> */}
             <strong>Aspirant Nepal</strong>
             <sub>beta</sub>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -31,35 +31,35 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class=" collapse navbar-collapse   justify-content-center"
+            className=" collapse navbar-collapse   justify-content-center"
             id="navbarNav"
           >
             <ul className={styles.navbarul + " navbar-nav"}>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Features
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Pricing
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link">Disabled</a>
+              <li className="nav-item">
+                <a className="nav-link">Disabled</a>
               </li>
             </ul>
           </div>
           <form className="collapse navbar-collapse flex-grow-0 justify-content-end">
-            <button class="btn primarybtn ps-4 pe-4" type="button">
+            <button className="btn primarybtn ps-4 pe-4" type="button">
               Register
             </button>
           </form>

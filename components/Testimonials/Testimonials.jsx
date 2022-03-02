@@ -1,19 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import styles from "./Testimonials.module.css";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Testimonials = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  });
   return (
     <>
       <div className={styles.testimonials + " section"}>
-        <h1>Customers Say Nice Things</h1>
-        <p className={styles.testimonialpar}>
+        <h1 data-aos="zoom-in-down">Customers Say Nice Things</h1>
+        <p className={styles.testimonialpar} data-aos="zoom-out">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
           voluptates suscipit dolor sint obcaecati eius quisquam expedita
           facilis ipsam corrupti.
         </p>
-        <div className="container">
+        <div className="container" data-aos="fade-up">
           <Carousel
             showArrows={true}
             infiniteLoop={true}

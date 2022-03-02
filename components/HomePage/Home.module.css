@@ -1,6 +1,6 @@
 .headerContainer {
   height: 92vh;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .homepageHero {
@@ -9,7 +9,7 @@
 }
 
 .heroright {
-  background-image: url("../assets/images/pm-phy.jpg");
+  background-image: url("../../assets/images/pm-phy.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -116,20 +116,21 @@
   }
 
   .heroleft {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: hidden;
   }
   .heroleft h1 {
     word-spacing: 5px;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .heroleft p {
     text-align: center;
-    width: 70%;
+    width: 50%;
   }
 
   .leftHeroContainer {
