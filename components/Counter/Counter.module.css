@@ -18,7 +18,7 @@
   border: 1px solid #ccc;
   /* box-shadow: 1px 3px #ccc; */
   text-align: center;
-  background-color: #0d1941ef;
+  background-color: rgba(13, 25, 65, 0.9);
 }
 
 .card:hover {
