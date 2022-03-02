@@ -73,7 +73,10 @@ const Navbar = () => {
             </ul>
           </div>
           <form className="collapse navbar-collapse flex-grow-0 justify-content-end">
-            <button className="btn primarybtn ps-4 pe-4" type="button">
+            <button
+              className={styles.primarybtn + " btn ps-4 pe-4"}
+              type="button"
+            >
               Register
             </button>
           </form>

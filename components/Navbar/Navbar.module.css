@@ -3,3 +3,14 @@
   text-transform: uppercase;
   font-weight: 500;
 }
+
+.primarybtn {
+  padding: 10px 40px;
+  color: #0004ad;
+  background-color: #ffc400;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-family: "Secular One", sans-serif;
+  font-size: calc(24 / 16);
+}
