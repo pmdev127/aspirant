@@ -125,6 +125,9 @@
 }
 
 @media (max-width: 768px) {
+  .login {
+    height: 100%;
+  }
   .loginPhoto {
     display: none;
   }
@@ -138,5 +141,31 @@
 
   .loginInput {
     width: 85%;
+  }
+
+  .loginContent {
+    height: 100%;
+  }
+  .logoContainer {
+    position: relative;
+  }
+  .loginForms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+}
+
+@media (max-height: 600px) and (max-width: 768px) {
+  .logoContainer img {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-height: 470px) and (max-width: 768px) {
+  .logoContainer img {
+    margin-top: 20rem;
   }
 }
