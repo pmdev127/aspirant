@@ -1,15 +1,16 @@
 import React, { useEffect } from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "./Navbar/Navbar";
 import Head from "next/head";
 import styles from "./Home.module.css";
-import Hero from "../Hero/Hero";
+import Hero from "./Hero/Hero";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Goals from "../Goals/Goals";
-import Counter from "../Counter/Counter";
-import Footer from "../Footer/Footer";
-import Testimonials from "../Testimonials/Testimonials";
-import FAQ from "../FAQ/FAQ";
+import Goals from "./Goals/Goals";
+import Counter from "./Counter/Counter";
+import Footer from "./Footer/Footer";
+import Testimonials from "./Testimonials/Testimonials";
+import FAQ from "./FAQ/FAQ";
+import Link from "next/link";
 
 const Home = () => {
   useEffect(() => {
@@ -41,13 +42,16 @@ const Home = () => {
                 Consequuntur excepturi adipisci quasi numquam, nobis ipsam illo
                 ratione molestiae quisquam sint?
               </p>
-              <button className={styles.herobtn} data-aos="zoom-in">
-                Test Your Skills Now
-              </button>
+              <Link href="/login">
+                <button className={styles.herobtn} data-aos="zoom-in">
+                  Test Your Skills Now
+                </button>
+              </Link>
             </div>
           </div>
           <div
             className={styles.heroright + "  col-xl-4 col-md-4  p-0 m-0"}
+            data-aos="zoom-in-left"
           ></div>
         </div>
       </header>

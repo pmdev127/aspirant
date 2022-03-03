@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import styles from "./Hero.module.css";
-import heroImg from "../../assets/images/pm-phy.jpg";
-import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

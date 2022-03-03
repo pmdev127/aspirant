@@ -43,7 +43,7 @@
   color: #524e4e;
 }
 .heroImg1 {
-  background-image: url("../../assets/images/pm-phy.jpg");
+  background-image: url("../../../assets/images/pm-phy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +55,7 @@
 }
 
 .heroImg2 {
-  background-image: url("../../assets/images/pm-phy.jpg");
+  background-image: url("../../../assets/images/pm-phy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
