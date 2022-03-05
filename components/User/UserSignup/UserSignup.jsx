@@ -190,7 +190,7 @@ const UserSignup = () => {
                           />
                           <label
                             className="form-check-label p-0 px-2"
-                            for="flexRadioDefault1"
+                            htmlFor="flexRadioDefault1"
                           >
                             Male
                           </label>
@@ -204,7 +204,7 @@ const UserSignup = () => {
                           />
                           <label
                             className="form-check-label  p-0 px-2"
-                            for="flexRadioDefault2"
+                            htmlFor="flexRadioDefault2"
                           >
                             Female
                           </label>
@@ -219,7 +219,7 @@ const UserSignup = () => {
                           />
                           <label
                             className="form-check-label  p-0 px-2"
-                            for="flexRadioDefault2"
+                            htmlFor="flexRadioDefault2"
                           >
                             Others
                           </label>
