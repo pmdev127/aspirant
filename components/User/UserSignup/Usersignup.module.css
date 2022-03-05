@@ -25,9 +25,6 @@
   overflow-x: hidden;
 }
 
-.logoContainer {
-  /* position: relative; */
-}
 .logoContainer img {
   margin-left: -1.5rem;
 }
