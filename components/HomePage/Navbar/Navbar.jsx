@@ -24,8 +24,9 @@ const Navbar = () => {
       <nav
         className={
           navcheck
-            ? "navbar navbar-expand-lg navbar-dark custom-nav px-3 bg-dark"
-            : "navbar navbar-expand-lg navbar-light custom-nav px-3"
+            ? styles.customNav +
+              " navbar navbar-expand-lg navbar-dark custom-nav px-3 bg-dark"
+            : styles.customNav + " navbar navbar-expand-lg navbar-light px-3"
         }
         data-aos="fade-in"
         data-aos-anchor-placement="top-center"
