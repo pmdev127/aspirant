@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./UserLogin.module.css";
 import Head from "next/head";
-import Image from "next/image";
-import logo from "../../../assets/images/logo.png";
+import Link from "next/link";
 
 const UserLogin = () => {
   return (
@@ -53,7 +52,9 @@ const UserLogin = () => {
                   <button type="submit">Sign In</button>
                   <h5>
                     {`Don't have an account yet?`}
-                    <span> Sign Up Here</span>
+                    <Link href="/signup">
+                      <span> Sign Up Here</span>
+                    </Link>
                   </h5>
                 </div>
               </div>
