@@ -173,7 +173,9 @@ const UserSignup = () => {
                         >
                           <option>Open this select menu</option>
                           {district.map((d) => (
-                            <option value={d}>{d.toLocaleUpperCase()}</option>
+                            <option key={d} value={d}>
+                              {d.toLocaleUpperCase()}
+                            </option>
                           ))}
                         </select>
                       </div>
