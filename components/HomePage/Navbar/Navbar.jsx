@@ -12,7 +12,7 @@ const Navbar = () => {
   });
 
   const changeBackground = () => {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 80) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -24,8 +24,8 @@ const Navbar = () => {
       <nav
         className={
           navcheck
-            ? "navbar navbar-expand-lg navbar-dark fixed-top px-3 bg-dark"
-            : "navbar navbar-expand-lg navbar-light fixed-top px-3 mt-2"
+            ? "navbar navbar-expand-lg navbar-dark custom-nav px-3 bg-dark"
+            : "navbar navbar-expand-lg navbar-light custom-nav px-3"
         }
         data-aos="fade-in"
         data-aos-anchor-placement="top-center"
@@ -48,7 +48,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className=" collapse navbar-collapse   justify-content-center"
+            className=" collapse navbar-collapse justify-content-center"
             id="navbarNav"
           >
             <ul className={styles.navbarul + " navbar-nav"}>
