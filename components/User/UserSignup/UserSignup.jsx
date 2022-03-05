@@ -168,7 +168,7 @@ const UserSignup = () => {
                         <label htmlFor="pass">Temporary Address</label>
                         <select
                           required
-                          class="form-select"
+                          className="form-select"
                           aria-label="Default select example"
                         >
                           <option>Open this select menu</option>
@@ -179,44 +179,44 @@ const UserSignup = () => {
                       </div>
                       <div className="col-md-12">
                         <label htmlFor="gender">Gender</label>
-                        <div class="form-check d-inline-flex justify-content-center align-items-center pt-2">
+                        <div className="form-check d-inline-flex justify-content-center align-items-center pt-2">
                           <input
-                            class="form-check-input"
+                            className="form-check-input"
                             type="radio"
                             name="flexRadioDefault"
                             id="flexRadioDefault1"
                           />
                           <label
-                            class="form-check-label p-0 px-2"
+                            className="form-check-label p-0 px-2"
                             for="flexRadioDefault1"
                           >
                             Male
                           </label>
                         </div>
-                        <div class="form-check d-inline-flex justify-content-center align-items-center mx-3">
+                        <div className="form-check d-inline-flex justify-content-center align-items-center mx-3">
                           <input
-                            class="form-check-input"
+                            className="form-check-input"
                             type="radio"
                             name="flexRadioDefault"
                             id="flexRadioDefault2"
                           />
                           <label
-                            class="form-check-label  p-0 px-2"
+                            className="form-check-label  p-0 px-2"
                             for="flexRadioDefault2"
                           >
                             Female
                           </label>
                         </div>
-                        <div class="form-check d-inline-flex justify-content-center align-items-center">
+                        <div className="form-check d-inline-flex justify-content-center align-items-center">
                           <input
-                            class="form-check-input"
+                            className="form-check-input"
                             type="radio"
                             name="flexRadioDefault"
                             id="flexRadioDefault2"
                             checked
                           />
                           <label
-                            class="form-check-label  p-0 px-2"
+                            className="form-check-label  p-0 px-2"
                             for="flexRadioDefault2"
                           >
                             Others
@@ -228,7 +228,7 @@ const UserSignup = () => {
 
                         <select
                           required
-                          class="form-select"
+                          className="form-select"
                           aria-label="Default select example"
                         >
                           <option>Open this select menu</option>
@@ -243,7 +243,7 @@ const UserSignup = () => {
 
                         <select
                           required
-                          class="form-select"
+                          className="form-select"
                           aria-label="Default select example"
                         >
                           <option>Open this select menu</option>
