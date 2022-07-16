@@ -1,0 +1,147 @@
+.homepage {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.headerContainer {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.homepageHero {
+  height: 100%;
+  overflow: hidden;
+}
+
+.heroright {
+  background-image: url("../../assets/images/pm-phy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heroleft {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftHeroContainer {
+  padding: 0 15rem;
+}
+
+.leftHeroContainer h1 {
+  font-family: "Secular One", sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: #334752;
+}
+
+.leftHeroContainer p {
+  width: 75%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #706a6a;
+}
+
+.herobtn {
+  padding: 10px 40px;
+  color: #0004ad;
+  background-color: #ffc400;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-family: "Secular One", sans-serif;
+  font-size: calc(24 / 16);
+}
+
+.leftHeroContainer span {
+  display: block;
+}
+
+@media (min-height: 1800px) {
+  .headerContainer {
+    height: 70rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .leftHeroContainer {
+    padding: 0 10rem;
+  }
+
+  .leftHeroContainer h1 {
+    font-family: "Secular One", sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #334752;
+  }
+
+  .leftHeroContainer p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #706a6a;
+  }
+}
+
+@media (max-width: 1230px) {
+  .heroright {
+    display: none;
+  }
+
+  .heroleft {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .heroleft h1 {
+    word-spacing: 10px;
+  }
+  .heroleft p {
+    text-align: center;
+    width: 70%;
+  }
+
+  .leftHeroContainer {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .heroright {
+    display: none;
+  }
+
+  .heroleft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  .heroleft h1 {
+    word-spacing: 5px;
+    font-size: 2rem;
+  }
+  .heroleft p {
+    text-align: center;
+    width: 50%;
+  }
+
+  .leftHeroContainer {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

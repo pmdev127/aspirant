@@ -1,0 +1,18 @@
+.login{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1{
+    text-decoration: underline;
+    color: firebrick;
+    padding: 2rem 0;
+}
+
+.login button{
+    margin-top: 2rem;
+
+}

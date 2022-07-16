@@ -1,0 +1,53 @@
+.counter {
+  background-color: #f6f6fd;
+  text-align: center;
+}
+.counter h1 {
+  font-family: "Secular One", sans-serif;
+  /* text-transform: uppercase; */
+  font-size: 2rem;
+  color: #334752;
+  font-weight: 700;
+}
+.counter p {
+  color: rgba(49, 47, 47, 0.719);
+}
+
+.card {
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  /* box-shadow: 1px 3px #ccc; */
+  text-align: center;
+  background-color: rgba(13, 25, 65, 0.9);
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card .counterup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #fff;
+  height: 100px;
+}
+
+@media (max-width: 1200px) and (min-width: 650px) {
+  .card .counterup {
+    font-size: 2rem;
+  }
+}
+
+.card p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #0d1941;
+  height: 50px;
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
