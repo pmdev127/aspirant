@@ -27,8 +27,14 @@ const Home = () => {
           content="width=device-width, initial-scale=1.0"
         ></meta>
         <title>Aspirants Nepal</title>
-        <meta name="description" content="Aspirant Nepal" />
+        <meta name="description" content="We are tech company helping and inspirng youths/aspirants to get successfully pass entrance exam of +2 entrance, bachelor entrance (such as CEE, Engineering), Loksewa, License entrance with languages entrance preparation coming in near future." />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta property="og:title" content="Aspirant Nepal" />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content="We are tech company helping and inspirng youths/aspirants to get successfully pass entrance exam of +2 entrance, bachelor entrance (such as CEE, Engineering), Loksewa, License entrance with languages entrance preparation coming in near future."></meta>
+        <meta property="og:url" content="https://www.aspirantsnepal.com/" />
+        <meta property="og:image" content="https://www.aspirantsnepal.com/cover.png" />
       </Head>
       <Navbar />
       <header className={styles.headerContainer} data-aos="fade-in">
